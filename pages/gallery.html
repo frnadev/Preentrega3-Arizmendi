@@ -12,81 +12,84 @@
 </head>
 <body>
     
-    <nav class="navbar navbar-expand-sm bg-info navbar-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="../index.html"><img src="../img/logo.png" alt="logo" style="width: 50px;"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-            <span class="navbar-toggler-icon"></span>
+    <header>
+      <nav class="navbar navbar-expand-sm bg-info navbar-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html"><img src="../img/logo.png" alt="logo" style="width: 50px;"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contacto</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="gallery.html">Galería</a>
+                </li>  
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+    </header>
+
+    <main>
+        <div id="afagallery" class="container my-5 carousel carousel-dark slide" data-bs-ride="true">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="afagallery" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="afagallery" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#afagallery" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#afagallery" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#afagallery" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#afagallery" data-bs-slide-to="5" aria-label="Slide 6"></button>
+            <button type="button" data-bs-target="#afagallery" data-bs-slide-to="6" aria-label="Slide 7"></button>
+            <button type="button" data-bs-target="#afagallery" data-bs-slide-to="7" aria-label="Slide 8"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="../img/gal1.png" class="d-block w-100" alt="foto1">
+            </div>
+            <div class="carousel-item">
+              <img src="../img/gal2.png" class="d-block w-100" alt="foto2">
+            </div>
+            <div class="carousel-item">
+              <img src="../img/gal3.png" class="d-block w-100" alt="foto3">
+            </div>
+            <div class="carousel-item">
+              <img src="../img/gal4.png" class="d-block w-100" alt="foto4">
+            </div>
+            <div class="carousel-item">
+              <img src="../img/gal5.png" class="d-block w-100" alt="foto5">
+            </div>
+            <div class="carousel-item">
+              <img src="../img/gal6.png" class="d-block w-100" alt="foto6">
+            </div>
+            <div class="carousel-item">
+              <img src="../img/gal7.png" class="d-block w-100" alt="foto7">
+            </div>
+            <div class="carousel-item">
+              <img src="../img/gal8.png" class="d-block w-100" alt="foto8">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#afagallery" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
           </button>
-          <div class="collapse navbar-collapse" id="collapsibleNavbar">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="../index.html">Inicio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contacto</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="gallery.html">Galería</a>
-              </li>  
-                </ul>
-              </li>
-            </ul>
-          </div>
+          <button class="carousel-control-next" type="button" data-bs-target="#afagallery" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
-      </nav>
-
-
-      <div id="afagallery" class="container my-5 carousel carousel-dark slide" data-bs-ride="true">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="afagallery" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="afagallery" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#afagallery" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          <button type="button" data-bs-target="#afagallery" data-bs-slide-to="3" aria-label="Slide 4"></button>
-          <button type="button" data-bs-target="#afagallery" data-bs-slide-to="4" aria-label="Slide 5"></button>
-          <button type="button" data-bs-target="#afagallery" data-bs-slide-to="5" aria-label="Slide 6"></button>
-          <button type="button" data-bs-target="#afagallery" data-bs-slide-to="6" aria-label="Slide 7"></button>
-          <button type="button" data-bs-target="#afagallery" data-bs-slide-to="7" aria-label="Slide 8"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="../img/gal1.png" class="d-block w-100" alt="foto1">
-          </div>
-          <div class="carousel-item">
-            <img src="../img/gal2.png" class="d-block w-100" alt="foto2">
-          </div>
-          <div class="carousel-item">
-            <img src="../img/gal3.png" class="d-block w-100" alt="foto3">
-          </div>
-          <div class="carousel-item">
-            <img src="../img/gal4.png" class="d-block w-100" alt="foto4">
-          </div>
-          <div class="carousel-item">
-            <img src="../img/gal5.png" class="d-block w-100" alt="foto5">
-          </div>
-          <div class="carousel-item">
-            <img src="../img/gal6.png" class="d-block w-100" alt="foto6">
-          </div>
-          <div class="carousel-item">
-            <img src="../img/gal7.png" class="d-block w-100" alt="foto7">
-          </div>
-          <div class="carousel-item">
-            <img src="../img/gal8.png" class="d-block w-100" alt="foto8">
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#afagallery" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#afagallery" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
+    </main>
 
 
 
-      <div>
+      
         <footer class="text-center text-white bg-info">
         
           <div class="container">
@@ -127,16 +130,16 @@
               </div>
             </section>
             <section class="text-center mb-5">
-              <a href="https://es-la.facebook.com/AFASeleccionArgentina/" class="text-white me-4">
+              <a href="https://es-la.facebook.com/AFASeleccionArgentina/" target="_blank" class="text-white me-4">
                 <i class="fab fa-facebook-f"></i>
               </a>
-              <a href="https://twitter.com/Argentina?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="text-white me-4">
+              <a href="https://twitter.com/Argentina?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank" class="text-white me-4">
                 <i class="fab fa-twitter"></i>
               </a>
-              <a href="https://www.instagram.com/afaseleccion/" class="text-white me-4">
+              <a href="https://www.instagram.com/afaseleccion/" target="_blank" class="text-white me-4">
                 <i class="fab fa-instagram"></i>
               </a>
-              <a href="https://github.com/frnadev" class="text-white me-4">
+              <a href="https://github.com/frnadev" target="_blank" class="text-white me-4">
                 <i class="fab fa-github"></i>
               </a>
             </section>
@@ -145,7 +148,7 @@
             © 2023
           </div>
         </footer>
-      </div>
+      
 
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
     </body>
